@@ -45,4 +45,14 @@ An **honor roll of FWENDS** with cute notes and even cuter animations.
 ---
 
 ## 🎀 How to Run It  
-1. Follow this link: https://canhazcode.github.io/MiniHolidayHackathon/profile.html
+Follow this link: https://canhazcode.github.io/MiniHolidayHackathon/profile.html
+
+## 🖤 Credits
+Banner Text: Cool Text Generator
+Cursor: Cursors 4 U
+Background Gradient: My imagination ✨
+Inspiration: All the glitter, chaos, and nostalgia of the 90s web!
+
+## 🌟 Special Thanks
+To the Mini Holiday Hackathon 2024 organizers for bringing the fun and creativity this holiday season. 🦄
+And to all the devs who keep the 90s spirit alive in our hearts. 🕶️💾
