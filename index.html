@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Itty Bitty World</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>👋 Howdy</h1>
-    <a href="profile.html">Profile</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container -->
+    <main id="home-main">
+        <!-- Banner Section -->
+        <section id="banner-section">
+            <img id="banner" src="https://images.cooltext.com/5718163.gif" alt="Welcome Banner">
+        </section>
+
+        <!-- Jacket Section -->
+        <section id="jacket-section">
+            <img id="jacket" src="https://imgur.com/RAHUM5x.png" alt="Jacket with Pins">
+
+            <!-- Buttons (Enamel Pins) -->
+            <button class="pin" id="pin-profile" data-description="Visit my Profile!" onclick="location.href='profile.html'">
+                <img src="https://imgur.com/56fSUqe.png" alt="Profile Pin">
+            </button>
+            <button class="pin" id="pin-fwends" data-description="Meet my Fwends!" onclick="location.href='fwends.html'">
+                <img src="https://imgur.com/00v7ZER.png" alt="Fwends Pin">
+            </button>
+            <button class="pin" id="pin-blogs" data-description="Read My Blogs!" onclick="location.href='blogpage.html'">
+                <img src="https://imgur.com/4s7e5HI.png" alt="Blogs Pin">
+            </button>
+            <button class="pin" id="pin-nopets" data-description="Virtual Pet Zone!" onclick="location.href='nopets.html'">
+                <img src="https://imgur.com/XT6SWoK.png" alt="No Pets Pin">
+            </button>
+            <button class="pin" id="pin-music" data-description="Play Some Music!">
+                <img src="https://imgur.com/hPAxhxk.png" alt="Music Pin">
+            </button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        
+      <p align = "center">Like this site? Find more from this Dev here: </p>
+      <ul align = "center">
+          <li><a href="https://www.codedex.io/@CanHazGames">Codedex</a></li>
+          <li><a href="https://github.com/CanHazCode">Github</a></li>
+          <li><a href="https://can-haz-games.itch.io/">Itch.io</a></li>
+          <li><a href="https://x.com/CanHazGames">X</a></li>
+       </ul>
+
+       <p align = "center"> Made with &#127892 by Can Haz Games </p>
+       <p align = "center"> Submission for the Mini Holiday Hackathon 2024. Track 2: 90s Retro Themed, Now It's Personal</p>
+   </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

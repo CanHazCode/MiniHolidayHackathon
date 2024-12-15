@@ -1,0 +1,118 @@
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255,245,28);
+    background: linear-gradient(0deg, rgba(230,10,121,1) 0%, rgba(255,245,28,1) 100%);
+    width: 100%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+/*---------------------- Navigation Bar ------------------------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #47B3C2;
+}
+
+li a {
+    display: block;
+    color: #FAF6EE;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li {
+    float: right;
+}
+
+li a:hover {
+    background-color: #0097B2;
+}
+
+/*---------------------- Main ------------------------------------*/
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: dashed;
+    color: blue;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+/*---------------------- Pawsonal Details ------------------------------------*/
+
+.float-container {
+    overflow: auto;
+    box-align: center;
+}
+
+.float-image {
+    float: left;
+    margin-left: 30%;
+    margin-right: 10px;
+    width: 15%;
+    height: auto;
+}
+
+/*---------------------- Top 5 Favorites ------------------------------------*/
+
+.top_5_row {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.top_5 {
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 20em;
+    height: auto;
+    text-align: center;
+    padding: 1em;
+    background-color: #0097B2;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+}
+
+.top_5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.top_5 p {
+    margin-top: 0.5em;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Cursor */
+* {
+    cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat354.ani), 
+            url(https://cur.cursors-4u.net/nature/nat-4/nat354.png), auto !important;
+}
+
+/*---------------------- Footer ------------------------------------*/
+
+footer {
+    color: white;
+}

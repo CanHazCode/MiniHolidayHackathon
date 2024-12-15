@@ -1,0 +1,138 @@
+
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+  }
+  
+body{
+    background: rgb(255,245,28);
+    background: linear-gradient(0deg, rgba(230,10,121,1) 0%,  rgba(255,245,28,1) 100%);
+    width: 100%;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+   
+
+}
+
+
+
+/*---------------------- This is for the navigation bars ------------------------------------*/
+
+    
+  /* Box for the menu */
+    /* box for the menu */
+    ul {
+        list-style-type: none;
+        margin: 10;
+        padding: 10;
+        overflow: hidden;
+        background-color: #47B3C2;
+    }
+
+    /* list items */
+    li a {
+        display: block;
+        color: #FAF6EE;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    /* where to align the list items */
+    li {
+        float: right;
+    }
+
+    /* change color on hover  */
+    li a:hover {
+        background-color: #0097B2;
+    }
+
+
+
+    /*---------------------- This is for Main ------------------------------------*/
+
+    main {
+        margin-top: 20px;
+      }
+      
+      section {
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+
+      h1{
+        text-align: center;
+        text-decoration: dashed;
+        color: red;
+      }
+
+      h1{
+        color: rgb(235, 0, 215);
+      }
+
+    /*---------------------- This is for Pawsonal Details ------------------------------------*/
+
+    .my_top_5_favs{
+        text-align: center;
+    }
+
+    /* To get the profile pic and text side */
+        .float-container {
+            overflow: auto; 
+            box-align: center;
+        }
+        
+        .float-image {
+        float: left; 
+        margin-left: 30%;
+        margin-right: 10px; 
+        width: 15%;
+        height: auto; 
+        }
+
+ /*---------------------- This is for my top 5 ------------------------------------*/
+
+ /* Styling the rows */
+.top_5_row {
+    display: flex; 
+    justify-content: center; 
+    gap: 1em; 
+    margin: 1em 0; 
+}
+
+/* Styling individual cards */
+.top_5 {
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 20em;
+    height: auto; 
+    text-align: center;
+    padding: 1em;
+    background-color: #260353; 
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styling the images */
+.top_5 img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+/* Styling the titles */
+.top_5 p {
+    margin-top: 0.5em;
+    font-size: 2em;
+    color: #fbff00; 
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat354.ani), url(https://cur.cursors-4u.net/nature/nat-4/nat354.png), auto !important;} /* End https://www.cursors-4u.com */
+
+/*---------------------- This is for the footer ------------------------------------*/
+
+footer{
+    color: white;
+}
+
+    
